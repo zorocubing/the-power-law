@@ -35,10 +35,8 @@ export default defineType({
             type: 'string',
             options: {
                 list: [
-                    { title: 'Wealth & Markets', value: 'wealth' },
-                    { title: 'Technology & Networks', value: 'technology' },
-                    { title: 'Culture & Fame', value: 'culture' },
-                    { title: 'Science & Ideas', value: 'science' },
+                    { title: 'Popular Stories', value: 'popular' },
+                    { title: 'Personal Stories', value: 'personal' }
                 ]
             }
         }),
